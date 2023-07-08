@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/ques%204.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques 4</title>
+</head>
+<body>
+    <form> 
+       <h1> Passport New User Registration Form </h1>
+       <h5> User Information </h5> 
+       <label> Register to apply at : </label>
+       Delhi <input type="radio" name="Register"> 
+       Vadodara <input type="radio" name="Register">
+       Mumbai <input type="radio" name="Register"> 
+       Ahmedabad <input type="radio" name="Register"> <br> <br> 
+       <label> Passport Office : </label>
+       <select>
+         <option>State</option> 
+        <option>Madhya Pradesh </option>
+        <option>Uttar Pradesh</option>
+        <option>Gujarat</option>
+        <option>Punjab</option>
+        <option>Jammu &amp; Kashmir</option>
+        <option>Andhra Pradesh</option>
+        <option>Arunachal Pradesh</option>
+        <option>Kerala</option>
+        <option>Rajasthan</option>
+        <option>Haryana</option>
+        <option>Maharashtra</option>
+        <option>Goa</option>
+        <option>Delhi</option>
+        <option>West Bengal</option>
+        <option>Tamil Nadu</option>
+    </select> <br> <br> 
+    <label> First Name : </label>
+    <input type="text" maxlength="40"> <br> <br> 
+    <label> Last Name : </label>
+    <input type="text" maxlength="40"> <br> <br> 
+    <label> Date of Birth : </label>
+    <input type="date" maxlength="20"> <br> <br>
+    <label> Email ID : </label>
+    <input type="email" maxlength="40"> <br> 
+    <h6> Do you want your Login Id
+        to be same as E-mail Id? </h6>
+        Yes <input type="radio" name="Name"> 
+        No <input type="radio" name="Name"> <br> <br> 
+    <label> Login ID : </label>
+    <input type="email" maxlength="40"> <br> <br>
+    <label> Password : </label>
+    <input type="password" maxlength="10"> <br> <br> 
+    <label> Contact : </label>
+    <input type="number" maxlength="10"> <br> <br>
+
+    <input type="submit"> 
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+    </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

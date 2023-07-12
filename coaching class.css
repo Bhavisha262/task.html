@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+    background-image: url("./aura.jpg");
+    background-repeat: no-repeat;
+    background-position:fixed;
+}
+.Name{ 
+    color: indigo;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.info{
+    color: crimson;
+    text-align: center;
+    border: 2px dotted rgb(24, 23, 23);
+    margin: 50px;
+}
+.msg{
+    color:rgb(45, 50, 45);
+    text-align: center;
+
+}
+.motto{
+    color:rgb(91, 62, 4);
+    text-align: center;
+}
+.book{
+    color:rgb(12, 65, 57);
+    text-align: center;
+}
+
+
+ a:link{ 
+    text-align: center; 
+    text-decoration-line: underline;
+    text-decoration-color: rgb(64, 53, 38);
+
+}
+ a:visited { 
+    color:aquamarine; 
+}
+a:hover { 
+    color:chocolate;
+     
+}
+a:active { 
+    color: rgb(84, 60, 13); 
+} 
+
+
+ 
+
+
+
